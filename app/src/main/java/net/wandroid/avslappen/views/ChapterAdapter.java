@@ -16,7 +16,7 @@ import java.util.zip.Inflater;
  */
 public class ChapterAdapter extends RecyclerView.Adapter<ChapterAdapter.ViewHolder> {
 
-    public static final int NR_ITEMS = 2;
+    public static final int NR_ITEMS = 15;
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
