@@ -11,7 +11,7 @@
     <dimen name="card_margin">8dp</dimen>
     <dimen name="info_image_height">200dp</dimen>
     <dimen name="info_image_max_height">300dp</dimen>
-    <dimen name="card_inner_margin">8dp</dimen>
+    <dimen name="card_inner_margin">16dp</dimen>
     <dimen name="chapter_info_vertical_padding">8dp</dimen>
 
 </resources>

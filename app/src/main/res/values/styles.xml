@@ -21,9 +21,13 @@
     <style name="list_secondary_line" parent="@android:style/TextAppearance.Small"></style>
 
     <style name="text_title" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginTop">24dp</item>
     </style>
 
-    <style name="text_normal" parent="@android:style/TextAppearance.Small"></style>
+    <style name="text_normal" parent="text_title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
 
 </resources>
