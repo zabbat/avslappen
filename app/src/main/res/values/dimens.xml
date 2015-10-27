@@ -8,9 +8,10 @@
     <dimen name="list_text_start_margin">72dp</dimen>
     <dimen name="card_elevation">4dp</dimen>
     <dimen name="play_card_height">100dp</dimen>
-    <dimen name="card_margin">4dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
     <dimen name="info_image_height">200dp</dimen>
     <dimen name="info_image_max_height">300dp</dimen>
     <dimen name="card_inner_margin">8dp</dimen>
+    <dimen name="chapter_info_vertical_padding">8dp</dimen>
 
 </resources>
