@@ -4,6 +4,7 @@
     android:layout_height="@dimen/play_card_height"
     android:background="#fff"
     android:gravity="center_vertical"
+    android:orientation="horizontal"
     >
 
     <!-- TODO: play control -->
@@ -13,10 +14,24 @@
         android:layout_height="48dp"
         android:src="@android:drawable/ic_media_play"
         android:tint="@color/colorAccent"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_margin="8dp"
         style="@style/clickable_image"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/media_seekbar"
+
+        />
+    <TextView
+        android:id="@+id/progress_time_text"
+        android:text="0:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/text_timer"
+        android:layout_marginRight="16dp"
         />
 
 </LinearLayout>

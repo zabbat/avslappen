@@ -30,9 +30,16 @@
         <item name="android:layout_marginTop">8dp</item>
     </style>
 
+    <style name="text_timer" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+
     <style name="clickable_image">
         <item name="android:background">?attr/selectableItemBackground</item>
         <item name="android:clickable">true</item>
     </style>
+
+
 
 </resources>
