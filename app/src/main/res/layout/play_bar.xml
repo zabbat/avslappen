@@ -3,8 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/play_card_height"
     android:background="#fff"
+    android:gravity="center_vertical"
     >
 
     <!-- TODO: play control -->
+    <ImageView
+        android:id="@+id/play_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_media_play"
+        android:tint="@color/colorAccent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        style="@style/clickable_image"
+        />
 
 </LinearLayout>
